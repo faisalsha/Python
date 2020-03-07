@@ -142,3 +142,14 @@ print()
 #          s[i+1]=temp
 
 # print(s)
+
+
+
+
+
+
+
+
+#gjwegfjerhjerhtjeri
+def main():
+   pass
