@@ -65,19 +65,39 @@
 # else:
 #     print(f"{n} is  not a power of 2")
 
-def _is_a_power_of_two(num):
-    if num <0:
-        print("its not a power of 2")
-    else:
-        while num !=1:
-            if num %2 ==0:
-                num=num //2
-            else:
-                return False
-        return True
-num=6
-if _is_a_power_of_two(num):
-    print(f"{num} is a power of 2")
-else:
-     print(f"{num} is  not a power of 2")
+# def _is_a_power_of_two(num):
+#     if num <0:
+#         print("its not a power of 2")
+#     else:
+#         while num !=1:
+#             if num %2 ==0:
+#                 num=num //2
+#             else:
+#                 return False
+#         return True
+# num=6
+# if _is_a_power_of_two(num):
+#     print(f"{num} is a power of 2")
+# else:
+#      print(f"{num} is  not a power of 2")
 
+
+#Mutiplication Tables
+# def Tables(num):
+#     for i in range(1,11):
+#         print(f"{num} X {i} = {num * i}")
+
+
+# Tables(7)
+
+#Removing Punchuation from strings
+punctuations = '''!()-[]{};:'"\,<>./?@#$%^&*_~'''
+
+my_str = "Hello!!!, he said ---and went."
+
+new_str=""
+for i in my_str:
+    if i not in punctuations:
+        new_str=new_str+i
+
+print(new_str)
